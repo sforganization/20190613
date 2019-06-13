@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <corners
+        android:radius="107dp"
+        />
+    <gradient
+        android:gradientRadius="100"
+        android:centerX="0%"
+        android:centerY="50%"
+        android:type="radial"
+        />
+    <stroke android:width="2dp" android:color="#ffffffff" /><!-- 描边，边框宽度、颜色 -->
+    <size
+        android:width="109dp"
+        android:height="109dp"
+        />
+</shape>

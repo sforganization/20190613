@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="5"
+    android:orientation="horizontal"
+    tools:context="com.example.administrator.huineng.Lock_16_Activity">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/function_frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/background" />
+
+        <Button
+            android:id="@+id/function_return"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="33dp"
+            android:background="@drawable/return_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/function16_glass_01"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="272dp"
+            android:layout_marginStart="272dp"
+            android:layout_marginTop="159dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <include
+            android:id="@+id/function16_glass_02"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="159dp"
+            app:layout_constraintStart_toEndOf="@+id/function16_glass_01"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/function16_glass_03"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="159dp"
+            app:layout_constraintStart_toEndOf="@+id/function16_glass_02"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/function16_glass_04"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="159dp"
+            app:layout_constraintStart_toEndOf="@+id/function16_glass_03"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/function16_glass_05"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="159dp"
+            app:layout_constraintStart_toEndOf="@+id/function16_glass_04"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/function16_glass_06"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="272dp"
+            android:layout_marginStart="272dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/function16_glass_01" />
+
+        <include
+            android:id="@+id/function16_glass_07"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintStart_toEndOf="@+id/function16_glass_06"
+            app:layout_constraintTop_toBottomOf="@+id/function16_glass_02" />
+
+        <include
+            android:id="@+id/function16_glass_08"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintStart_toEndOf="@+id/function16_glass_07"
+            app:layout_constraintTop_toBottomOf="@+id/function16_glass_03" />
+
+        <include
+            android:id="@+id/function16_glass_09"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintStart_toEndOf="@+id/function16_glass_08"
+            app:layout_constraintTop_toBottomOf="@+id/function16_glass_04" />
+
+        <include
+            android:id="@+id/function16_glass_10"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintStart_toEndOf="@+id/function16_glass_09"
+            app:layout_constraintTop_toBottomOf="@+id/function16_glass_05" />
+
+        <include
+            android:id="@+id/function16_glass_11"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="272dp"
+            android:layout_marginStart="272dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/function16_glass_06" />
+
+        <include
+            android:id="@+id/function16_glass_12"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintStart_toEndOf="@+id/function16_glass_11"
+            app:layout_constraintTop_toBottomOf="@+id/function16_glass_07" />
+
+        <include
+            android:id="@+id/function16_glass_13"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintStart_toEndOf="@+id/function16_glass_12"
+            app:layout_constraintTop_toBottomOf="@+id/function16_glass_08" />
+
+        <include
+            android:id="@+id/function16_glass_14"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintStart_toEndOf="@+id/function16_glass_13"
+            app:layout_constraintTop_toBottomOf="@+id/function16_glass_09" />
+
+        <include
+            android:id="@+id/function16_glass_15"
+            layout="@layout/include_function"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintStart_toEndOf="@+id/function16_glass_14"
+            app:layout_constraintTop_toBottomOf="@+id/function16_glass_10" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

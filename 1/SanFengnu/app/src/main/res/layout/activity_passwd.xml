@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.huineng.PasswdActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/frameLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="NotSibling">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/frameLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/passwd_background_image"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/background"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/passwd_ruturn"
+                android:background="@drawable/hongkong_return"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="68dp"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="33dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/passwdline"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="279dp"
+                android:layout_marginLeft="279dp"
+                android:layout_marginTop="247dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/hongkong_passwdline" />
+
+            <ImageView
+                android:id="@+id/passwd_employ"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="117dp"
+                android:layout_marginEnd="408dp"
+                android:layout_marginRight="408dp"
+                android:clickable="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/hongkong_employ" />
+
+            <ImageView
+                android:id="@+id/passwd_error_frame"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:clickable="false"
+                app:layout_constraintBottom_toBottomOf="@+id/passwdline"
+                app:layout_constraintEnd_toEndOf="@+id/passwdline"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/passwdline"
+                app:srcCompat="@drawable/hongkong_passerror" />
+
+            <TextView
+                android:id="@+id/passwd_input_1"
+                android:layout_width="59dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="78dp"
+                android:layout_marginLeft="78dp"
+                android:layout_marginBottom="8dp"
+                android:text=" *"
+                android:textSize="50dp"
+                android:visibility="invisible"
+                android:clickable="false"
+                app:layout_constraintBottom_toBottomOf="@+id/passwd_error_frame"
+                app:layout_constraintStart_toStartOf="@+id/passwdline" />
+
+            <TextView
+                android:id="@+id/passwd_input_2"
+                android:layout_width="59dp"
+                android:layout_height="50dp"
+                android:text=" *"
+                android:textSize="50dp"
+                android:visibility="invisible"
+                android:clickable="false"
+                app:layout_constraintBottom_toBottomOf="@+id/passwd_input_1"
+                app:layout_constraintStart_toEndOf="@+id/passwd_input_1" />
+
+            <TextView
+                android:id="@+id/passwd_input_3"
+                android:layout_width="59dp"
+                android:layout_height="50dp"
+                android:text=" *"
+                android:textSize="50dp"
+                android:visibility="invisible"
+                android:clickable="false"
+                app:layout_constraintStart_toEndOf="@+id/passwd_input_2"
+                app:layout_constraintTop_toTopOf="@+id/passwd_input_2" />
+
+            <TextView
+                android:id="@+id/passwd_input_4"
+                android:layout_width="59dp"
+                android:layout_height="50dp"
+                android:text=" *"
+                android:textSize="50dp"
+                android:visibility="invisible"
+                android:clickable="false"
+                app:layout_constraintStart_toEndOf="@+id/passwd_input_3"
+                app:layout_constraintTop_toTopOf="@+id/passwd_input_3" />
+
+            <TextView
+                android:id="@+id/passwd_input_5"
+                android:layout_width="59dp"
+                android:layout_height="50dp"
+                android:text=" *"
+                android:textSize="50dp"
+                android:visibility="invisible"
+                android:clickable="false"
+                app:layout_constraintStart_toEndOf="@+id/passwd_input_4"
+                app:layout_constraintTop_toTopOf="@+id/passwd_input_4" />
+
+            <TextView
+                android:id="@+id/passwd_input_6"
+                android:layout_width="59dp"
+                android:layout_height="50dp"
+                android:text=" *"
+                android:textSize="50dp"
+                android:visibility="invisible"
+                android:clickable="false"
+                app:layout_constraintStart_toEndOf="@+id/passwd_input_5"
+                app:layout_constraintTop_toTopOf="@+id/passwd_input_5" />
+
+            <Button
+                android:id="@+id/passwd_digit_00"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="128dp"
+                android:layout_marginLeft="128dp"
+                android:layout_marginBottom="110dp"
+                android:background="@drawable/digital_0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+
+            <Button
+                android:id="@+id/passwd_digit_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="71dp"
+                android:layout_marginLeft="71dp"
+                android:layout_marginBottom="110dp"
+                android:background="@drawable/digital_1"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/passwd_digit_00" />
+
+            <Button
+                android:id="@+id/passwd_digit_02"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="71dp"
+                android:layout_marginLeft="71dp"
+                android:layout_marginBottom="110dp"
+                android:background="@drawable/digital_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/passwd_digit_01" />
+
+            <Button
+                android:id="@+id/passwd_digit_03"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="110dp"
+                android:background="@drawable/digital_3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/passwd_digit_02" />
+
+            <Button
+                android:id="@+id/passwd_digit_04"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="71dp"
+                android:layout_marginLeft="71dp"
+                android:layout_marginBottom="110dp"
+                android:background="@drawable/digital_4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/passwd_digit_03" />
+
+            <Button
+                android:id="@+id/passwd_digit_05"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="71dp"
+                android:layout_marginLeft="71dp"
+                android:layout_marginBottom="110dp"
+                android:background="@drawable/digital_5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/passwd_digit_04" />
+
+            <Button
+                android:id="@+id/passwd_digit_06"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="110dp"
+                android:background="@drawable/digital_6"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/passwd_digit_05" />
+
+            <Button
+                android:id="@+id/passwd_digit_07"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="71dp"
+                android:layout_marginLeft="71dp"
+                android:layout_marginBottom="110dp"
+                android:background="@drawable/digital_7"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/passwd_digit_06" />
+
+            <Button
+                android:id="@+id/passwd_digit_08"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="71dp"
+                android:layout_marginLeft="71dp"
+                android:layout_marginBottom="110dp"
+                android:background="@drawable/digital_8"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/passwd_digit_07" />
+
+            <Button
+                android:id="@+id/passwd_digit_09"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="110dp"
+                android:background="@drawable/digital_9"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/passwd_digit_08" />
+
+
+            <Button
+                android:id="@+id/passwd_del_button"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="71dp"
+                android:layout_marginLeft="71dp"
+                android:layout_marginBottom="110dp"
+                android:background="@drawable/digital_del"
+                android:button="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/passwd_digit_09" />
+
+            <Button
+                android:id="@+id/passwd_change"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="35dp"
+                android:background="@drawable/hongkong_changepasswd"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/passwd_original"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="117dp"
+                android:clickable="false"
+                android:background="@drawable/hongkong_originalpasswd"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

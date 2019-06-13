@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="10.1in WXGA (Tablet)" />
+        <device id="7in WSVGA (Tablet)" />
+        <device id="Nexus 7" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cc9633d-37c1-46b0-a25f-b5b418423cff" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SanFengnu" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1765199140">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="9" />
+          <entry key="project.open.time.7" value="7" />
+          <entry key="project.open.time.8" value="5" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="48" />
+          <entry key="gradle" value="1" />
+          <entry key="java" value="94" />
+          <entry key="png" value="2" />
+          <entry key="xml" value="115" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="48" />
+          <entry key="Groovy" value="1" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="94" />
+          <entry key="XML" value="115" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="7" />
+          <entry key="java" value="2154" />
+          <entry key="xml" value="292" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2154" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="XML" value="292" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="645539775">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="java" value="6" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="6" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-895634214">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1384883969">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="gradle" value="1" />
+          <entry key="java" value="26" />
+          <entry key="jpg" value="1" />
+          <entry key="png" value="35" />
+          <entry key="xml" value="70" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="Groovy" value="1" />
+          <entry key="Image" value="36" />
+          <entry key="JAVA" value="26" />
+          <entry key="XML" value="70" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gradle" value="5" />
+          <entry key="java" value="1322" />
+          <entry key="xml" value="740" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Groovy" value="5" />
+          <entry key="JAVA" value="1322" />
+          <entry key="XML" value="740" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-538794458">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="18" />
+          <entry key="png" value="2" />
+          <entry key="xml" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="18" />
+          <entry key="XML" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="578" />
+          <entry key="xml" value="224" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="578" />
+          <entry key="XML" value="224" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-2008236833">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="java" value="15" />
+          <entry key="png" value="12" />
+          <entry key="xml" value="47" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="Image" value="12" />
+          <entry key="JAVA" value="15" />
+          <entry key="XML" value="47" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="370" />
+          <entry key="xml" value="53" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="370" />
+          <entry key="XML" value="53" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1778780662">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="10" />
+          <entry key="png" value="8" />
+          <entry key="xml" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="Image" value="8" />
+          <entry key="JAVA" value="10" />
+          <entry key="XML" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="397" />
+          <entry key="xml" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="397" />
+          <entry key="XML" value="52" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-628723527">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="86" />
+          <entry key="xml" value="36" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="86" />
+          <entry key="XML" value="36" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="19" />
+          <entry key="png" value="8" />
+          <entry key="xml" value="58" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="8" />
+          <entry key="JAVA" value="19" />
+          <entry key="XML" value="58" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SanFengnu" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>start</find>
+      <find>makeRootDirectory</find>
+      <find>cre</find>
+      <find>log</find>
+      <find>task</find>
+      <find>hand</find>
+      <find>0xcc00</find>
+      <find>fileIsExists</find>
+      <find>movieTimes</find>
+      <find>0xaa00</find>
+      <find>screenOrientation</find>
+      <find>button</find>
+      <find>sele</find>
+      <find>pro</find>
+      <find>process_bar</find>
+      <find>crea</find>
+      <find>des</find>
+      <find>WorkThread</find>
+      <find>onDestroy</find>
+      <find>0x2200</find>
+      <find>serial_task</find>
+      <find>bo</find>
+      <find>CREA</find>
+      <find>0x3300</find>
+      <find>bu_return</find>
+      <find>portrait</find>
+      <find>erase</find>
+      <find>try</find>
+      <find>tryWear</find>
+      <find>drawble</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map />
+    </option>
+    <option name="myGradleVersions">
+      <map />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/sanfengnu/Lock_16_Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/hong_kong_button_shade.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/hong_kong_button.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/sanfengnu/Conctrl_16_Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/include_lock.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/top_circle.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/bottom_circle.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/sanfengnu/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_advertisment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/sanfengnu/Advertisment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/sanfengnu/HongKong.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/HuiNeng/HongKong.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_lock_16_.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/loading.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/launcher_git.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_manager.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/ChangPasswdSuccessActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/ChangPasswdActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/ConfileActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_confile.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/ModeSetActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mode_set.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/SelectActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/erase.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/Advertisment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/TryingWearActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_select.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_trying_wear.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chang_passwd_success.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/PasswdActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_hong_kong.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/digital_0.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/digital_1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/digital_2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/digital_3.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/digital_4.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/digital_5.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/digital_6.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/digital_7.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/digital_8.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/digital_9.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/digital_del.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_passwd.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chang_passwd.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/HongKong.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="103" />
+    <option name="y" value="366" />
+    <option name="width" value="1280" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="SanFengnu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="SanFengnu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SanFengnu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SanFengnu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SanFengnu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SanFengnu" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="SanFengnu" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.example" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="SanFengnu" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.example" type="1f31426a:PackageElementNode" />
+              <item name="administrator" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SanFengnu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SanFengnu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SanFengnu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SanFengnu" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="build path&#9;PSI&#9;JAVA://android.support.v4.content.ContextCompat#buildPath&#10;sanfeng&#9;FILE&#9;file://F:/hisi/ad_test/hongkongdisplay/SanFengnu/app/src/androidTest/java/com/example/administrator/sanfengnu&#10;getPath&#9;PSI&#9;JAVA://android.net.Uri#getPath&#10;getDecorView&#9;PSI&#9;JAVA://android.support.test.espresso.Root#getDecorView" />
+    <property name="android.project.structure.last.selected" value="Notifications" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="D:/Android_SDK" />
+    <property name="device.picker.selection" value="89042af7380700000000" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../7_seven_10_lanp/SanFengnu" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.example.administrator.huineng" />
+      <recent name="com.example.administrator.sanfengnu" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.administrator.huineng" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\00gitRepo\hongkongdisplay\display\six_10\SanFengnu\app\src\main\res\drawable" />
+      <recent name="F:\00gitRepo\hongkongdisplay\display\one\SanFengnu\app\src\main\res\drawable" />
+      <recent name="F:\hisi\ad_test\hongkongdisplay\SanFengnu\app\src\main\res\drawable" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cc9633d-37c1-46b0-a25f-b5b418423cff" name="Default" comment="" />
+      <created>1542853968548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542853968548</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992948" visible="true" weight="0.15806112" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.50070524" side_tool="true" weight="0.20948827" />
+      <window_info id="Captures" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6273987" weight="0.3363029" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6423241" weight="0.37082404" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49733475" weight="0.32962137" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.81663114" visible="true" weight="0.22494432" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.18336888" side_tool="true" weight="0.38418707" />
+      <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.4989339" weight="0.27505568" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49840087" weight="0.32850778" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="13" weight="1.0" />
+      <window_info active="true" anchor="bottom" id="Messages" order="14" visible="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Gradle Console" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Android Monitor" order="16" />
+      <window_info anchor="bottom" id="Inspection Results" order="17" sideWeight="0.7798507" weight="0.6002227" />
+      <window_info anchor="bottom" id="Analysis" order="18" sideWeight="0.6652452" weight="0.32628062" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" sideWeight="0.50537634" side_tool="true" weight="0.26972282" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Android Model" order="8" side_tool="true" />
+      <window_info anchor="right" id="Assistant" order="9" weight="0.3295082" />
+      <window_info anchor="right" id="Preview" order="10" sideWeight="0.49462366" weight="0.39658847" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992948" visible="true" weight="0.1988273" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.50070524" side_tool="true" weight="0.20948827" />
+      <window_info id="Captures" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6273987" weight="0.32962137" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6423241" weight="0.30846325" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49733475" weight="0.32962137" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.81663114" visible="true" weight="0.38418707" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.18336888" side_tool="true" visible="true" weight="0.38418707" />
+      <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.4989339" weight="0.27505568" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49840087" weight="0.32850778" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="13" weight="1.0" />
+      <window_info active="true" anchor="bottom" id="Messages" order="14" visible="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Gradle Console" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Android Monitor" order="16" />
+      <window_info anchor="bottom" id="Inspection Results" order="17" sideWeight="0.7798507" weight="0.6002227" />
+      <window_info anchor="bottom" id="Analysis" order="18" sideWeight="0.6652452" weight="0.32628062" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Android Model" order="8" side_tool="true" />
+      <window_info anchor="right" id="Assistant" order="9" weight="0.3295082" />
+      <window_info anchor="right" id="Preview" order="10" visible="true" weight="0.3097015" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/Advertisment.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/Advertisment.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="hongKong2_run_state" />
+        <watch expression="lock_timer" />
+        <watch expression="pressState" />
+        <watch expression="lock_timer" />
+        <watch expression="trun_timer" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/hongkong_return.png" />
+    <entry file="jar://D:/Android_SDK/platforms/android-27/android.jar!/android/content/Intent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5321">
+          <caret line="332" column="11" selection-start-line="332" selection-start-column="11" selection-end-line="332" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/softwinner-quad_core_a33_y3-89042af7380700000000/mnt/usbhost1/image/h1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://D:/Android_SDK/platforms/android-27/android.jar!/java/lang/StringBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/softwinner-quad_core_a33_y3-89042af7380700000000/mnt/sdcard/SanFeng/image/h4.png" />
+    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/softwinner-quad_core_a33_y3-89042af7380700000000/mnt/sdcard/SanFeng/image/h3.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/hongkong_trywear.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/hongkong_7_s.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/erase.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/hongkong_1.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/hongkong_5_s.png" />
+    <entry file="jar://D:/Android_SDK/platforms/android-27/android.jar!/android/util/Log.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/background.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/hongkong_plz_select.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/hongkong_icon_a.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/hongkong_icon_b.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/hongkong_icon_c.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/hongkong_icon_d.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/launcher.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_advertisment.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/hongkong_0.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mode_set.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chang_passwd_success.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/ModeSetActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/PasswdActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/SelectActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/TryingWearActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/Advertisment.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/ChangPasswdSuccessActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/hongkong_changepasswd.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_trying_wear.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_select.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/digital_del.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/digital_9.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/digital_8.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/digital_7.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/digital_6.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/digital_5.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/HongKong.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/digital_1.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/digital_0.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/digital_2.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/digital_3.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/digital_4.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/huineng/ChangPasswdActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chang_passwd.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hong_kong.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_passwd.xml" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

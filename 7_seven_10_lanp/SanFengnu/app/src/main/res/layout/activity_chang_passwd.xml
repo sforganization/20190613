@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.huineng.ChangPasswdActivity">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/frameLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="NotSibling">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/frameLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/chpasswd_background_image"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/background"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/chpasswd_ruturn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="78dp"
+                android:layout_marginLeft="78dp"
+                android:layout_marginTop="46dp"
+                android:background="@drawable/hongkong_return"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <Button
+                android:id="@+id/chpasswd_newpasswd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="168dp"
+                android:background="@drawable/hongkong_newpasswd"
+                android:clickable="false"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/chpasswd_again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="178dp"
+                android:background="@drawable/hongkong_inputtwice"
+                android:clickable="false"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/chpasswdline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="410dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/hongkong_dotline" />
+
+            <ImageView
+                android:id="@+id/chpasswd_error_frame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/chpasswdline"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/hongkong_passerror" />
+
+            <Button
+                android:id="@+id/chpasswd_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="472dp"
+                android:background="@drawable/hongkong_passed_diff"
+                android:clickable="false"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/chpasswd_input_1"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="8dp"
+                android:clickable="false"
+                android:text="*"
+                android:textSize="65sp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@+id/chpasswd_error_frame"
+                app:layout_constraintStart_toStartOf="@+id/chpasswdline" />
+
+            <TextView
+                android:id="@+id/chpasswd_input_2"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:layout_marginStart="37dp"
+                android:layout_marginLeft="37dp"
+                android:clickable="false"
+                android:text="*"
+                android:textSize="65sp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@+id/chpasswd_input_1"
+                app:layout_constraintStart_toEndOf="@+id/chpasswd_input_1" />
+
+            <TextView
+                android:id="@+id/chpasswd_input_3"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:layout_marginStart="37dp"
+                android:layout_marginLeft="37dp"
+                android:clickable="false"
+                android:text="*"
+                android:textSize="65sp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/chpasswd_input_2"
+                app:layout_constraintTop_toTopOf="@+id/chpasswd_input_2" />
+
+            <TextView
+                android:id="@+id/chpasswd_input_4"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:layout_marginStart="37dp"
+                android:layout_marginLeft="37dp"
+                android:clickable="false"
+                android:text="*"
+                android:textSize="65sp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/chpasswd_input_3"
+                app:layout_constraintTop_toTopOf="@+id/chpasswd_input_3" />
+
+            <TextView
+                android:id="@+id/chpasswd_input_5"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:layout_marginStart="37dp"
+                android:layout_marginLeft="37dp"
+                android:clickable="false"
+                android:text="*"
+                android:textSize="65sp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/chpasswd_input_4"
+                app:layout_constraintTop_toTopOf="@+id/chpasswd_input_4" />
+
+            <TextView
+                android:id="@+id/chpasswd_input_6"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:layout_marginStart="37dp"
+                android:layout_marginLeft="37dp"
+                android:clickable="false"
+                android:text="*"
+                android:textSize="65sp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/chpasswd_input_5"
+                app:layout_constraintTop_toTopOf="@+id/chpasswd_input_5" />
+
+            <Button
+                android:id="@+id/chpasswd_digit_00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="163dp"
+                android:layout_marginLeft="163dp"
+                android:layout_marginBottom="133dp"
+                android:background="@drawable/digital_0"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+            <Button
+                android:id="@+id/chpasswd_digit_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="88dp"
+                android:layout_marginLeft="88dp"
+                android:layout_marginBottom="133dp"
+                android:background="@drawable/digital_1"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/chpasswd_digit_00" />
+
+            <Button
+                android:id="@+id/chpasswd_digit_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="88dp"
+                android:layout_marginLeft="88dp"
+                android:background="@drawable/digital_2"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/chpasswd_digit_00"
+                app:layout_constraintStart_toStartOf="@+id/chpasswd_digit_01" />
+
+            <Button
+                android:id="@+id/chpasswd_digit_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="87dp"
+                android:layout_marginLeft="87dp"
+                android:background="@drawable/digital_3"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/chpasswd_digit_01"
+                app:layout_constraintStart_toStartOf="@+id/chpasswd_digit_02" />
+
+            <Button
+                android:id="@+id/chpasswd_digit_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="88dp"
+                android:layout_marginLeft="88dp"
+                android:background="@drawable/digital_4"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/chpasswd_digit_03"
+                app:layout_constraintStart_toStartOf="@+id/chpasswd_digit_03" />
+
+            <Button
+                android:id="@+id/chpasswd_digit_05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="88dp"
+                android:layout_marginLeft="88dp"
+                android:background="@drawable/digital_5"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/chpasswd_digit_04"
+                app:layout_constraintStart_toStartOf="@+id/chpasswd_digit_04" />
+
+            <Button
+                android:id="@+id/chpasswd_digit_06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="87dp"
+                android:layout_marginLeft="87dp"
+                android:background="@drawable/digital_6"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/chpasswd_digit_05"
+                app:layout_constraintStart_toStartOf="@+id/chpasswd_digit_05" />
+
+            <Button
+                android:id="@+id/chpasswd_digit_07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="88dp"
+                android:layout_marginLeft="88dp"
+                android:background="@drawable/digital_7"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/chpasswd_digit_05"
+                app:layout_constraintStart_toStartOf="@+id/chpasswd_digit_06" />
+
+            <Button
+                android:id="@+id/chpasswd_digit_08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="88dp"
+                android:layout_marginLeft="88dp"
+                android:background="@drawable/digital_8"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/chpasswd_digit_07"
+                app:layout_constraintStart_toStartOf="@+id/chpasswd_digit_07" />
+
+            <Button
+                android:id="@+id/chpasswd_digit_09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="88dp"
+                android:layout_marginLeft="88dp"
+                android:background="@drawable/digital_9"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/chpasswd_digit_08"
+                app:layout_constraintStart_toStartOf="@+id/chpasswd_digit_08" />
+
+
+            <Button
+                android:id="@+id/chpasswd_del_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="87dp"
+                android:layout_marginLeft="87dp"
+                android:background="@drawable/digital_del"
+                android:button="@null"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/chpasswd_digit_09"
+                app:layout_constraintStart_toStartOf="@+id/chpasswd_digit_09" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
+
+

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.huineng.ManagerActivity">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/frameLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="NotSibling">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/frameLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/manage_background_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/background" />
+
+            <ImageView
+                android:id="@+id/manage_employ_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="62dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/employ_info" />
+
+            <ImageView
+                android:id="@+id/manage_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="338dp"
+                android:layout_marginStart="328dp"
+                android:layout_marginTop="323dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/manage_background_image"
+                app:srcCompat="@drawable/passwd_fram" />
+
+            <Button
+                android:id="@+id/manage_digit_01"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginBottom="147dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginStart="100dp"
+                android:background="@drawable/passwd_button"
+                android:text="1"
+                android:textColor="#4066FF"
+                android:textSize="65sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/manage_digit_02"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginBottom="147dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginStart="100dp"
+                android:background="@drawable/passwd_button"
+                android:text="2"
+                android:textColor="#4066FF"
+                android:textSize="65sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/manage_digit_01" />
+
+            <Button
+                android:id="@+id/manage_digit_03"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginBottom="147dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginStart="100dp"
+                android:background="@drawable/passwd_button"
+                android:text="3"
+                android:textColor="#4066FF"
+                android:textSize="65sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/manage_digit_02" />
+
+            <Button
+                android:id="@+id/manage_digit_04"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginBottom="147dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginStart="100dp"
+                android:background="@drawable/passwd_button"
+                android:text="4"
+                android:textColor="#4066FF"
+                android:textSize="65sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/manage_digit_03" />
+
+            <Button
+                android:id="@+id/manage_digit_05"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginBottom="147dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginStart="100dp"
+                android:background="@drawable/passwd_button"
+                android:text="5"
+                android:textColor="#4066FF"
+                android:textSize="65sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/manage_digit_04" />
+
+            <Button
+                android:id="@+id/manage_digit_06"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginBottom="147dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginStart="100dp"
+                android:background="@drawable/passwd_button"
+                android:text="6"
+                android:textColor="#4066FF"
+                android:textSize="65sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/manage_digit_05" />
+
+            <Button
+                android:id="@+id/manage_digit_07"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginBottom="147dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginStart="100dp"
+                android:background="@drawable/passwd_button"
+                android:text="7"
+                android:textColor="#4066FF"
+                android:textSize="65sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/manage_digit_06" />
+
+            <Button
+                android:id="@+id/manage_digit_08"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginBottom="147dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginStart="100dp"
+                android:background="@drawable/passwd_button"
+                android:text="8"
+                android:textColor="#4066FF"
+                android:textSize="65sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/manage_digit_07" />
+
+            <Button
+                android:id="@+id/manage_digit_09"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginBottom="147dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginStart="100dp"
+                android:background="@drawable/passwd_button"
+                android:text="9"
+                android:textColor="#4066FF"
+                android:textSize="65sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/manage_digit_08" />
+
+            <Button
+                android:id="@+id/manage_digit_00"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginBottom="147dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginStart="100dp"
+                android:background="@drawable/passwd_button"
+                android:text="0"
+                android:textColor="#4066FF"
+                android:textSize="65sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/manage_digit_09" />
+
+
+            <Button
+                android:id="@+id/manage_del_button"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginBottom="147dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginStart="100dp"
+                android:background="@drawable/passwd_button"
+                android:textColor="#4066FF"
+                android:textSize="35sp"
+                android:text="del"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/manage_digit_00" />
+
+            <TextView
+                android:id="@+id/manage_input_1"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginLeft="338dp"
+                android:layout_marginStart="338dp"
+                android:text=" *"
+                android:textSize="65dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/manage_input" />
+
+            <TextView
+                android:id="@+id/manage_input_2"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginStart="34dp"
+                android:text=" *"
+                android:textSize="65dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/manage_input_1"
+                app:layout_constraintTop_toTopOf="@+id/manage_input" />
+
+            <TextView
+                android:id="@+id/manage_input_3"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginStart="34dp"
+                android:text=" *"
+                android:textSize="65dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/manage_input_2"
+                app:layout_constraintTop_toTopOf="@+id/manage_input" />
+
+            <TextView
+                android:id="@+id/manage_input_4"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginStart="34dp"
+                android:text=" *"
+                android:textSize="65dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/manage_input_3"
+                app:layout_constraintTop_toTopOf="@+id/manage_input" />
+
+            <TextView
+                android:id="@+id/manage_input_5"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginStart="34dp"
+                android:text=" *"
+                android:textSize="65dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/manage_input_4"
+                app:layout_constraintTop_toTopOf="@+id/manage_input" />
+
+            <TextView
+                android:id="@+id/manage_input_6"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginStart="34dp"
+                android:text=" *"
+                android:textSize="65dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/manage_input_5"
+                app:layout_constraintTop_toTopOf="@+id/manage_input" />
+
+            <Button
+                android:id="@+id/manage_ruturn"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="33dp"
+                android:background="@drawable/return_image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/manage_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="248dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:textSize="55dp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/manager_lock_txt"
+                android:layout_width="63dp"
+                android:layout_height="28dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginStart="48dp"
+                android:background="@drawable/open_lock"
+                android:clickable="false"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/manage_function_txt"
+                android:layout_width="133dp"
+                android:layout_height="27dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:contextClickable="false"
+                android:background="@drawable/funtion_select"
+                android:clickable="false"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/manager_finger_txt"
+                android:layout_width="133dp"
+                android:layout_height="28dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:visibility="invisible"
+                android:background="@drawable/finger_manager"
+                android:clickable="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/manager_open_lock_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:visibility="invisible"
+                android:background="@drawable/trywear"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/manager_finger_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:visibility="invisible"
+                android:background="@drawable/trywear"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/manager_function_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginEnd="536dp"
+                android:layout_marginRight="536dp"
+                android:visibility="invisible"
+                android:background="@drawable/trywear"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

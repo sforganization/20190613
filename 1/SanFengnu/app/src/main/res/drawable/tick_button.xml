@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_window_focused="true"
+        android:drawable="@drawable/tick_select"/>
+    <item
+        android:drawable="@drawable/tick_select"/>
+</selector>

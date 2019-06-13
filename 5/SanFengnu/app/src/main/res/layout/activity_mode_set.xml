@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.huineng.ModeSetActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/frameLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="24dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/background"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+        <Button
+            android:id="@+id/modeSet_ruturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="69dp"
+            android:layout_marginLeft="69dp"
+            android:layout_marginTop="37dp"
+            android:background="@drawable/hongkong_return"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/modeSet_tpd_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="53dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="360dp"
+            android:background="@drawable/hongkong_tpd_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/modeSet_650_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:background="@drawable/hongkong_tpd650_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toStartOf="@+id/modeSet_tpd_a"
+            app:layout_constraintTop_toBottomOf="@+id/modeSet_tpd_a" />
+
+        <Button
+            android:id="@+id/modeSet_750_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:background="@drawable/hongkong_tpd750_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toStartOf="@+id/modeSet_650_a"
+            app:layout_constraintTop_toBottomOf="@+id/modeSet_650_a" />
+
+        <Button
+            android:id="@+id/modeSet_850_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="83dp"
+            android:layout_marginLeft="83dp"
+            android:background="@drawable/hongkong_tpd850_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toEndOf="@+id/modeSet_tpd_a"
+            app:layout_constraintTop_toTopOf="@+id/modeSet_tpd_a" />
+
+        <Button
+            android:id="@+id/modeSet_1000_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:background="@drawable/hongkong_tpd1000_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toStartOf="@+id/modeSet_850_a"
+            app:layout_constraintTop_toBottomOf="@+id/modeSet_850_a" />
+
+        <Button
+            android:id="@+id/modeSet_1950_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:background="@drawable/hongkong_tpd1950_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toStartOf="@+id/modeSet_1000_a"
+            app:layout_constraintTop_toBottomOf="@+id/modeSet_1000_a" />
+
+        <Button
+            android:id="@+id/modeSet_tpd_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="53dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="920dp"
+            android:background="@drawable/hongkong_tpd_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/modeSet_650_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:background="@drawable/hongkong_tpd650_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toStartOf="@+id/modeSet_tpd_b"
+            app:layout_constraintTop_toBottomOf="@+id/modeSet_tpd_b" />
+
+        <Button
+            android:id="@+id/modeSet_750_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:background="@drawable/hongkong_tpd750_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toStartOf="@+id/modeSet_650_b"
+            app:layout_constraintTop_toBottomOf="@+id/modeSet_650_b" />
+
+        <Button
+            android:id="@+id/modeSet_850_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="83dp"
+            android:layout_marginLeft="83dp"
+            android:background="@drawable/hongkong_tpd850_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toEndOf="@+id/modeSet_tpd_b"
+            app:layout_constraintTop_toTopOf="@+id/modeSet_tpd_b" />
+
+        <Button
+            android:id="@+id/modeSet_1000_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/hongkong_tpd1000_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toStartOf="@+id/modeSet_850_b"
+            app:layout_constraintTop_toBottomOf="@+id/modeSet_850_b" />
+
+        <Button
+            android:id="@+id/modeSet_1950_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:background="@drawable/hongkong_tpd1950_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toStartOf="@+id/modeSet_1000_b"
+            app:layout_constraintTop_toBottomOf="@+id/modeSet_1000_b" />
+
+        <Button
+            android:id="@+id/modeSet_R_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="348dp"
+            android:layout_marginLeft="348dp"
+            android:background="@drawable/hongkong_mode_fwd_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toEndOf="@+id/modeSet_tpd_a"
+            app:layout_constraintTop_toTopOf="@+id/modeSet_tpd_a" />
+
+        <Button
+            android:id="@+id/modeSet_L_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/hongkong_mode_fwd_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/modeSet_650_a"
+            app:layout_constraintEnd_toEndOf="@+id/modeSet_R_a" />
+
+        <Button
+            android:id="@+id/modeSet_RL_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="332dp"
+            android:layout_marginLeft="332dp"
+            android:background="@drawable/hongkong_mode_fr_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/modeSet_750_a"
+            app:layout_constraintStart_toEndOf="@+id/modeSet_750_a" />
+
+        <Button
+            android:id="@+id/modeSet_R_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="348dp"
+            android:layout_marginLeft="348dp"
+            android:background="@drawable/hongkong_mode_fwd_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toEndOf="@+id/modeSet_tpd_b"
+            app:layout_constraintTop_toTopOf="@+id/modeSet_tpd_b" />
+
+        <Button
+            android:id="@+id/modeSet_L_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/hongkong_mode_fwd_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/modeSet_650_b"
+            app:layout_constraintEnd_toEndOf="@+id/modeSet_R_b" />
+
+        <Button
+            android:id="@+id/modeSet_RL_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="332dp"
+            android:layout_marginLeft="332dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/hongkong_mode_fr_s"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/modeSet_750_b"
+            app:layout_constraintStart_toEndOf="@+id/modeSet_750_b" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="130dp"
+            android:clickable="false"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/hongkong_mode_info_a" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="108dp"
+            android:clickable="false"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:srcCompat="@drawable/hongkong_mode_info_b" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.huineng.ModeSetActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/frameLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="24dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/background"
+            tools:ignore="MissingConstraints"/>
+
+        <Button
+            android:id="@+id/modeSet_ruturn"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="33dp"
+            android:background="@drawable/return_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/modeSet_tpd_choose_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="180dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/tpd_choose" />
+
+        <ImageView
+            android:id="@+id/modeSet_dir_choose_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="302dp"
+            android:layout_marginRight="302dp"
+            android:layout_marginTop="180dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dir_select" />
+
+        <Button
+            android:id="@+id/modeSet_650"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mode_set_button"
+            android:textColor="#FFFFFF"
+            android:textSize="29dp"
+            android:text="TPD650"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="373dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/modeSet_750"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mode_set_button"
+            android:textColor="#FFFFFF"
+            android:textSize="29dp"
+            android:text="TPD750"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="373dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/modeSet_650" />
+
+        <Button
+            android:id="@+id/modeSet_850"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mode_set_button"
+            android:textColor="#FFFFFF"
+            android:textSize="29dp"
+            android:text="TPD850"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="373dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/modeSet_750" />
+
+        <Button
+            android:id="@+id/modeSet_1000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mode_set_button"
+            android:textColor="#FFFFFF"
+            android:textSize="29dp"
+            android:text="TPD1000"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="373dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/modeSet_850" />
+
+        <Button
+            android:id="@+id/modeSet_1950"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mode_set_button"
+            android:textColor="#FFFFFF"
+            android:textSize="29dp"
+            android:text="TPD1950"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="373dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/modeSet_1000" />
+
+
+        <Button
+            android:id="@+id/modeSet_R"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="319dp"
+            android:layout_marginRight="319dp"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/mode_set_button"
+            android:textColor="#FFFFFF"
+            android:textSize="29dp"
+            android:text="顺时针"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/modeSet_L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="319dp"
+            android:layout_marginRight="319dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/mode_set_button"
+            android:textColor="#FFFFFF"
+            android:textSize="29dp"
+            android:text="逆时针"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/modeSet_R" />
+
+        <Button
+            android:id="@+id/modeSet_RL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="319dp"
+            android:layout_marginRight="319dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/mode_set_button"
+            android:textColor="#FFFFFF"
+            android:textSize="29dp"
+            android:text="顺逆时针"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/modeSet_L" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

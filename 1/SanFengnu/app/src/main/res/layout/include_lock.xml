@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="109dp"
+    android:layout_height="109dp">
+
+    <Button
+        android:id="@+id/include_cicle"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:clickable="false"
+        app:layout_constraintBottom_toBottomOf="@+id/include_trun_moto_button"
+        app:layout_constraintEnd_toEndOf="@+id/include_open_lock_button"
+        app:layout_constraintStart_toStartOf="@+id/include_open_lock_button"
+        app:layout_constraintTop_toTopOf="@+id/include_open_lock_button" />
+
+    <Button
+        android:id="@+id/include_open_lock_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/open_lock_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/include_trun_moto_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/trun_moto"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include_open_lock_button"/>
+
+    <Button
+        android:id="@+id/include_top_circle"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_circle"
+        android:textColor="#9C9C9C"
+        android:textSize="32sp"
+        android:clickable="false"
+        app:layout_constraintStart_toStartOf="@+id/include_trun_moto_button"
+        app:layout_constraintTop_toTopOf="@+id/include_trun_moto_button" />
+
+    <Button
+        android:id="@+id/include_bottom_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_circle"
+        android:clickable="false"
+        android:visibility="invisible"
+        android:textColor="#FF0B03"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/include_open_lock_button"
+        app:layout_constraintStart_toStartOf="@+id/include_open_lock_button" />
+</android.support.constraint.ConstraintLayout>

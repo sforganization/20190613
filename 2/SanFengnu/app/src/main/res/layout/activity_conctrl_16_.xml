@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.huineng.Conctrl_16_Activity">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/backgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/background" />
+
+        <Button
+            android:id="@+id/set"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/set"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/set" />
+
+
+        <ImageView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="395dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="62dp"
+            app:layout_constraintBottom_toTopOf="@+id/glass_14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/select_glass_onfo" />
+
+        <Button
+            android:id="@+id/glass_01"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginBottom="213dp"
+            android:layout_marginLeft="272dp"
+            android:layout_marginStart="272dp"
+            android:layout_marginTop="159dp"
+            android:textColor="#FF4A36"
+            android:textSize="80dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/glass_02"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="159dp"
+            android:background="@drawable/circle"
+            android:text="2"
+            android:textColor="#FF4A36"
+            android:textSize="80dp"
+            app:layout_constraintStart_toEndOf="@+id/glass_01"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/glass_03"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="159dp"
+            android:background="@drawable/circle"
+            android:text="3"
+            android:textColor="#FF4A36"
+            android:textSize="80dp"
+            app:layout_constraintStart_toEndOf="@+id/glass_02"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/glass_04"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="159dp"
+            android:background="@drawable/circle"
+            android:text="4"
+            android:textColor="#FF4A36"
+            android:textSize="80dp"
+            app:layout_constraintStart_toEndOf="@+id/glass_03"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/glass_05"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="159dp"
+            android:background="@drawable/circle"
+            android:text="5"
+            android:textColor="#FF4A36"
+            android:textSize="80dp"
+            app:layout_constraintStart_toEndOf="@+id/glass_04"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/glass_06"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="272dp"
+            android:layout_marginStart="272dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/circle"
+            android:text="6"
+            android:textColor="#FF4A36"
+            android:textSize="80dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glass_01" />
+
+        <Button
+            android:id="@+id/glass_07"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/circle"
+            android:text="7"
+            android:textColor="#FF4A36"
+            android:textSize="80dp"
+            app:layout_constraintStart_toEndOf="@+id/glass_06"
+            app:layout_constraintTop_toBottomOf="@+id/glass_02" />
+
+        <Button
+            android:id="@+id/glass_08"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/circle"
+            android:text="8"
+            android:textColor="#FF4A36"
+            android:textSize="80dp"
+            app:layout_constraintStart_toEndOf="@+id/glass_07"
+            app:layout_constraintTop_toBottomOf="@+id/glass_03" />
+
+        <Button
+            android:id="@+id/glass_09"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/circle"
+            android:text="9"
+            android:textColor="#FF4A36"
+            android:textSize="80dp"
+            app:layout_constraintStart_toEndOf="@+id/glass_08"
+            app:layout_constraintTop_toBottomOf="@+id/glass_04" />
+
+        <Button
+            android:id="@+id/glass_10"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/circle"
+            android:text="10"
+            android:textColor="#FF4A36"
+            android:textSize="75dp"
+            app:layout_constraintStart_toEndOf="@+id/glass_09"
+            app:layout_constraintTop_toBottomOf="@+id/glass_05" />
+
+        <Button
+            android:id="@+id/glass_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="272dp"
+            android:layout_marginStart="272dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/circle"
+            android:text="11"
+            android:textColor="#FF4A36"
+            android:textSize="75dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glass_06" />
+
+        <Button
+            android:id="@+id/glass_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/circle"
+            android:text="12"
+            android:textColor="#FF4A36"
+            android:textSize="75dp"
+            app:layout_constraintStart_toEndOf="@+id/glass_11"
+            app:layout_constraintTop_toBottomOf="@+id/glass_07" />
+
+        <Button
+            android:id="@+id/glass_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/circle"
+            android:text="13"
+            android:textColor="#FF4A36"
+            android:textSize="75dp"
+            app:layout_constraintStart_toEndOf="@+id/glass_12"
+            app:layout_constraintTop_toBottomOf="@+id/glass_08" />
+
+        <Button
+            android:id="@+id/glass_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/circle"
+            android:text="14"
+            android:textColor="#FF4A36"
+            android:textSize="75dp"
+            app:layout_constraintStart_toEndOf="@+id/glass_13"
+            app:layout_constraintTop_toBottomOf="@+id/glass_09" />
+
+        <Button
+            android:id="@+id/glass_15"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/circle"
+            android:text="15"
+            android:textColor="#FF4A36"
+            android:textSize="75dp"
+            app:layout_constraintStart_toEndOf="@+id/glass_14"
+            app:layout_constraintTop_toBottomOf="@+id/glass_10" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
